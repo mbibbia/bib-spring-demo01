@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Controller {
+public class WineController {
 
     @Autowired
-    private ArticleRespository articleRepository;
+    private WineRespository wineRepository;
 
     // constructor injection also works
     // code here to use the injected articleRepository
